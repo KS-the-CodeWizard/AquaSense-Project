@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Progress Bar</title>
+    <!-- Gooogle Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gauge_container">
+      <div class="temperature">
+        <div class="gauge" id="C_gauge">
+          <div id="C_gauge__body" class="gauge__body">
+            <div id="C_gauge__fill" class="gauge__fill"></div>
+            <div id="C_gauge__cover" class="gauge__cover"></div>
+          </div>
+          <div class="gauge_detail">Temperature Celsius</div>
+        </div>
+  
+        <div class="gauge" id="F_gauge">
+          <div class="gauge__body" id="F_gauge__body">
+            <div class="gauge__fill" id="F_gauge__fill"></div>
+            <div class="gauge__cover" id="F_gauge__cover"></div>
+          </div>
+          <div class="gauge_detail">Temperature Fahrenheit</div>
+        </div>
+      </div>
+      
+      <div class="quality">
+        <div class="gauge" id="TDS_gauge">
+          <div class="gauge__body" id="TDS_gauge__body">
+            <div class="gauge__fill" id="TDS_gauge__fill"></div>
+            <div class="gauge__cover" id="TDS_gauge__cover"></div>
+          </div>
+          <div class="gauge_detail">TDS</div>
+        </div>
+  
+        <div class="gauge" id="EC_gauge">
+          <div class="gauge__body" id="EC_gauge__body">
+            <div class="gauge__fill" id="EC_gauge__fill"></div>
+            <div class="gauge__cover" id="EC_gauge__cover"></div>
+          </div>
+          <div class="gauge_detail">EC</div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
